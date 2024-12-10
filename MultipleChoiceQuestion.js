@@ -2,7 +2,7 @@ import Question from './Question.js'
 
 
 // Interface for multipleChoice questions
-class MultipleChoiceQuestion extends Questionn{
+class MultipleChoiceQuestion extends Question{
   constructor(id, prompt, options, correctAnswer){
     super(id,prompt)
     this.options=options
